@@ -60,7 +60,6 @@ li:hover{
 #search-icon{
   color: #fff;
   cursor: pointer;
-  font-size: 1.5rem;
 }
 #search-icon:hover{
   color: #cdba6d;
@@ -79,7 +78,7 @@ li:hover{
   height: 130vh;
   position: absolute;
   top: 0;
-  left: 0;  
+  left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
@@ -270,14 +269,17 @@ li:hover{
   font-size: 1rem;
   cursor: pointer;
 }
+
 .signature-button-container button:hover {
   background-color: #fff;
 }
-.signature-button-container img{
+
+.signature-button-container img {
   width: 100px;
   height: auto;
 }
-.attorney-container{
+
+.attorney-container {
   width: 50%;
   height: 100%;
   display: flex;
@@ -379,6 +381,7 @@ li:hover{
   font-size: 1.1rem;
   font-weight: 500;
 }
+
 .testimonials-container {
   width: 100%;
   height: 150vh;
@@ -486,7 +489,8 @@ li:hover{
   width: 50%;
   height: 100%;
 }
-.form-content{
+
+.form-content {
   background-color: #323a43;
   width: 50%;
   height: 100%;
@@ -626,6 +630,7 @@ line-height: 2;
   display: flex;
   column-gap: 20px;  
 }
+
 .social-media i {
   font-size: 2rem;
   color: #fff;
@@ -634,14 +639,17 @@ line-height: 2;
 #facebook-icon:hover{
   color: #007bff;
 }
-#telegram-icon:hover{
+
+#telegram-icon:hover {
   color: #17a2b8;
 }
-#linkedin-icon:hover{
+
+#linkedin-icon:hover {
   color: #007bff;
 }
-#instagram-icon:hover{
-  color: #da2a7c;
+
+#instagram-icon:hover {
+  color: #e83e8c;
 }
 #youtube-icon:hover{
   color: #dc3545;
@@ -654,7 +662,7 @@ line-height: 2;
 }
 .theme-posts h2{
   color: #c8b050;
-  margin:0;
+  margin: 0;
   font-size: 1rem;
   letter-spacing: 6px;
   font-weight: 700;
@@ -684,6 +692,7 @@ line-height: 2;
   font-weight: 700;
   font-size: 1.2rem;
 }
+
 .post-content p:hover {
   color: #c8b050;
 }
@@ -693,10 +702,8 @@ line-height: 2;
   font-weight: 500;
   font-size: 1.2rem;
 }
-#clock-icon{
-  color: #c8b050;
-}
-.copyright{
+
+.copyright {
   width: 100%;
   height: 50px;
   display: flex;
@@ -714,12 +721,15 @@ line-height: 2;
   .content{
     padding: 0 90px;
   }
+  
   #square-3 {
     padding: 0 60px;
   }
+
   .testimonials-cards-container {
     padding: 0 100px;
   }
+
   .post-content {
     padding: 0 55px 0 10px;
   }
@@ -737,36 +747,51 @@ line-height: 2;
   .testimonials-cards-container {
     padding: 0 110px;
   }
-  .testimony{
-    font-size: 1rem;
-  }
 
   footer {
     padding: 220px 60px 80px 60px;
   }
 }
+
 @media (max-width: 1024px) {
   .destaks-container{
     padding: 0 40px;
   }
-  .our-services-container{
+  .our-services-content{
     padding: 0 40px;
   }
-  .content{
+
+  .content {
     padding: 0 60px;
   }
- 
-  #square-3{
-    padding: 0 40px
+  
+  #square-3 {
+    padding: 0 40px;
   }
-  .testimonials-cards-container{
-    padding: 0 60px;
+
+  .testimonials-cards-container {
+    padding: 0 50px;
   }
+
+  .form-content {
+    padding: 120px 20px 60px 20px
+  }
+
   footer {
     padding: 220px 30px 80px 30px;
   }
+
+  .theme-posts {
+    width: 45%;
+  }
+
+  .post-content {
+    padding: 0 0 0 10px;
+  }
+
 }
-@media (max-width: 835px)   {
+
+@media(max-width: 835px) {
 
   nav {
     display: none;
@@ -881,7 +906,9 @@ line-height: 2;
   }
 
 }
-@media (max-width: 768px)  {
+
+@media (max-width: 768px) {
+
   .welcome-container {
     height: 180vh;
   }
@@ -930,4 +957,110 @@ line-height: 2;
     padding: 20px 10px 0 10px;
   }
 
+}
+@media (max-width: 415px) {
+  header{
+    padding: 0 10px;
+  }
+  .home-conteiner{
+    display: flex;
+    justify-content: center;
+  }
+  .presentation-container{
+    width: 100%;
+    height: 60%;
+  }
+  .presentation-container h3{
+    text-align: center;
+  }
+  .presentation-container h1{
+    font-size: 3rem;
+  }
+
+  .destaks-container{
+    padding: 0 10px;
+  }
+  .welcome-container{
+    height: 2050px;
+    align-items: end;
+  }
+  .signature-content{
+    height: 600px;
+  }
+  .signature-text{
+    width: 95%;
+    height: 90%;
+    row-gap: 10px;
+    margin-bottom: 10px;
+  }
+  .attorney-container{
+    height: 400px;
+  }
+  .attorney-img{
+    margin-left: 10px;
+    width: 90%;
+    height:390px;  
+  }
+  .our-services-container{
+    height: 1550px;
+  }
+  .our-services-title{
+    margin-top: 120px;
+    padding-top: 20px;
+    height: 15%;
+  }
+  .our-services-title h1{
+    text-align: center;
+  }
+  #our-services-divider{
+    width:30%;
+  }
+  .our-services-content{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .testimonials-container{
+    height: 130vh;
+  }
+  .testimonials-cards-container{
+    padding: 0 5px;
+  }
+  .testimonials-title h1{
+    font-size: 2.5rem;
+  }
+  .cards{
+    margin-bottom: 20px;
+  }
+  .form-container{
+   height: 200vh;
+  }
+  .form-content{
+    padding: 120px 10px 60px 10px;
+  }
+  .form-title h2{
+    font-size: 1rem;
+  }
+  .form-title h1{
+    font-size: 2rem;
+  }
+  footer{
+    padding: 50px 10px 0 10px;
+    height: 150vh;
+  }
+  .footer-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text{
+    width: 100%;
+    height: 40%;
+    row-gap: 20px;
+  }
+  .theme-posts{
+    width: 100%;
+    height: 45%;
+  }
+  .post-content{
+    padding: 0 10px;
+  }
 }
