@@ -1,0 +1,1 @@
+Projeto que segue modelo de site de contratação de advocacia.
